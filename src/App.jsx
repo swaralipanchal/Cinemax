@@ -13,7 +13,7 @@ import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
 import PageNotFound from "./pages/404/PageNotFound";
-import Footer from './Components/footer/Footer';
+import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 
 function App() {

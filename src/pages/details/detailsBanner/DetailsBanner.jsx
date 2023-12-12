@@ -7,14 +7,15 @@ import dayjs from "dayjs";
 
 import "./style.scss";
 
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../allcomponents/contentWrapper/ContentWrapper.jsx";
 import useFetch from "../../../hooks/useFetch";
-import Genres from "../../../components/genres/Genres";
-import CircleRating from "../../../components/circleRating/CircleRating";
-import Img from "../../../components/lazyLoadImage/Img.jsx";
+import Genres from "../../../allcomponents/genres/Genres.jsx";
+import CircleRating from "../../../allcomponents/circleRating/CircleRating.jsx";
+
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playbtn";
-import VideoPopup from "../../../components/videoPopup/VideoPopup";
+import VideoPopup from "../../../allcomponents/videoPopup/VideoPopup.jsx";
+import Img from "../../../allcomponents/lazyLoadImage/Img.jsx";
 
 const DetailsBanner = ({ video, crew }) => {
     const [show, setShow] = useState(false);
