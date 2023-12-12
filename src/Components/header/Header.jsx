@@ -3,9 +3,6 @@ import React, { useState, useEffect } from "react";
 import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
-import { SiThemoviedatabase } from "react-icons/si";
-import { MdMovie } from "react-icons/md";
-import { RiMovieFill } from "react-icons/ri";
 import { useNavigate, useLocation } from "react-router-dom";
 
 import "./style.scss";
