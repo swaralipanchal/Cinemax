@@ -1,11 +1,11 @@
-/* eslint-disable no-unused-vars */
+
 import React, { useEffect, useState } from 'react'
 import "./style.scss"
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import useFetch from '../../../hooks/useFetch'
-import Img from "../../../Components/lazyLoadImage/img";
-import ContentWrapper from '../../../Components/contentWrapper/ContentWrapper'
+import Img from "../../../allcomponents/lazyLoadImage/img";
+import ContentWrapper from '../../../allcomponents/contentWrapper/ContentWrapper'
 
 
 

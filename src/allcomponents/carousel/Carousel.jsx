@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
+
 import React, { useRef } from "react";
 import {
   BsFillArrowLeftCircleFill,
@@ -10,13 +9,13 @@ import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
 
-import Img from "../lazyLoadImage/Img";
 import PosterFallback from "../../assets/no-poster.png";
 
 import "./style.scss";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
+import Img from "../lazyLoadImage/img";
 
 const Carousel = ({ data, loading ,endpoint , title }) => {
 

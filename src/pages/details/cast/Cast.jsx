@@ -1,13 +1,12 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import React from "react";
 import { useSelector } from "react-redux";
 
 import "./style.scss";
 
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import Img from "../../../components/lazyLoadImage/Img";
+import ContentWrapper from "../../../allcomponents/contentWrapper/ContentWrapper";
+
 import avatar from "../../../assets/avatar.png";
+import Img from "../../../allcomponents/lazyLoadImage/img";
 
 const Cast = ({ data, loading }) => {
     const { url } = useSelector((state) => state.home);

@@ -1,9 +1,9 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 
 import "./style.scss";
 
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../allcomponents/contentWrapper/ContentWrapper";
 
 const PageNotFound = () => {
     return (

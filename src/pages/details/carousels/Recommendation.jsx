@@ -1,8 +1,6 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import React from "react";
 
-import Carousel from "../../../components/carousel/Carousel";
+import Carousel from "../../../allcomponents/carousel/Carousel";
 import useFetch from "../../../hooks/useFetch";
 
 const Recommendation = ({ mediaType, id }) => {

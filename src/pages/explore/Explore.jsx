@@ -1,6 +1,3 @@
-/* eslint-disable no-unsafe-optional-chaining */
-/* eslint-disable react-hooks/exhaustive-deps */
-// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -10,9 +7,9 @@ import "./style.scss";
 
 import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-import Spinner from "../../Components/spinner/Spinner";
-import MovieCard from "../../Components/movieCard/MovieCard";
+import ContentWrapper from "../../allcomponents/contentWrapper/ContentWrapper";
+import Spinner from "../../allcomponents/spinner/Spinner";
+import MovieCard from "../../allcomponents/movieCard/MovieCard";
 
 
 let filters = {};

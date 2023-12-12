@@ -1,10 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
+
 import React, { useState }  from 'react'
-import ContentWrapper from '../../../Components/contentWrapper/ContentWrapper'
-import SwitchTabs from '../../../Components/switchTabs/SwitchTabs';
+import ContentWrapper from '../../../allcomponents/contentWrapper/ContentWrapper'
+import SwitchTabs from '../../../allcomponents/switchTabs/SwitchTabs';
 import useFetch from '../../../hooks/useFetch';
-import Carousel from '../../../Components/carousel/Carousel';
+import Carousel from '../../../allcomponents/carousel/Carousel';
 
 
 const Popular = () => {

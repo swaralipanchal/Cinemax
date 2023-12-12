@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -15,7 +13,8 @@ import CircleRating from "../../../allcomponents/circleRating/CircleRating.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playbtn";
 import VideoPopup from "../../../allcomponents/videoPopup/VideoPopup.jsx";
-import Img from "../../../allcomponents/lazyLoadImage/Img.jsx";
+import Img from "../../../allcomponents/lazyLoadImage/img.jsx";
+
 
 const DetailsBanner = ({ video, crew }) => {
     const [show, setShow] = useState(false);
